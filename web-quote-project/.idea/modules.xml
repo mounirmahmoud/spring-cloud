@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/web-quote-config/web-quote-config.iml" filepath="$PROJECT_DIR$/web-quote-config/web-quote-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-quote-eureka-service/web-quote-eureka-service.iml" filepath="$PROJECT_DIR$/web-quote-eureka-service/web-quote-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-quote-service/web-quote-service.iml" filepath="$PROJECT_DIR$/web-quote-service/web-quote-service.iml" />
+    </modules>
+  </component>
+</project>

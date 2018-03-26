@@ -10,7 +10,7 @@ import org.springframework.context.ApplicationContext;
 
 import java.util.stream.Stream;
 
-@Enable
+
 @SpringBootApplication
 public class WebQuoteServiceApplication {
 

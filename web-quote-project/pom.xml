@@ -20,5 +20,7 @@
         <module>web-quote-service</module>
         <module>web-quote-eureka-service</module>
         <module>web-quote-config</module>
+<module>quote-proxy-service</module>
+
     </modules>
 </project>

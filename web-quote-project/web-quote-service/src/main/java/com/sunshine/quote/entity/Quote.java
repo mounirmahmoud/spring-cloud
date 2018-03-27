@@ -1,9 +1,8 @@
 package com.sunshine.quote.entity;
 
 import javax.annotation.Generated;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
@@ -14,9 +13,11 @@ import java.io.Serializable;
 public class Quote implements Serializable {
 
     @Id
-    @GeneratedValue
-    private  Long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
+    @Column
+    @NotNull
     private String description;
 
     public Quote () {

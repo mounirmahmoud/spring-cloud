@@ -7,12 +7,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by fanida on 18-03-23.
  */
 
-@RepositoryRestResource
+@Repository
 public interface QuoteRepository extends JpaRepository<Quote, Long> {
 
     @Query("select q from Quote q where q.id like:id")

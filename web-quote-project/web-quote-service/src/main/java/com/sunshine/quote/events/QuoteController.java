@@ -1,4 +1,4 @@
-package com.sunshine.quote.service;
+package com.sunshine.quote.events;
 
 import com.sunshine.quote.dao.QuoteRepository;
 import com.sunshine.quote.entity.Quote;
@@ -16,7 +16,7 @@ import java.util.List;
 
 @RefreshScope
 @RestController
-public class QuoteRestService {
+public class QuoteController {
 
     @Autowired
     private QuoteRepository quoteRepository;

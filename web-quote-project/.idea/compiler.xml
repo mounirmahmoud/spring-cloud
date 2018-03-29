@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="quote-proxy-service" />
-        <module name="web-quote-config" />
+        <module name="web-quote-config-service" />
         <module name="web-quote-eureka-service" />
+        <module name="web-quote-proxy-service" />
         <module name="web-quote-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="quote-proxy-service" target="1.8" />
-      <module name="web-quote-config" target="1.8" />
+      <module name="web-quote-config-service" target="1.8" />
       <module name="web-quote-eureka-service" target="1.8" />
-      <module name="web-quote-project" target="1.5" />
+      <module name="web-quote-project" target="1.8" />
+      <module name="web-quote-proxy-service" target="1.8" />
       <module name="web-quote-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

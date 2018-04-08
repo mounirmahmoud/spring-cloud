@@ -64,7 +64,8 @@
 					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
 					<!--
 					 copy the service's jar file from target into the root directory of the image
-					  docker run -it -p 9999:8080 web-quote-config : to deploy new container
+						1 : mvn clean package docker:build
+						2 :  docker run -it -p 9999:8080 web-quote-config : to deploy new container
 					-->
 					<resources>
 						<resource>

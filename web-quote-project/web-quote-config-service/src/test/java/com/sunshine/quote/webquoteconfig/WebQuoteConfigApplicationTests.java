@@ -1,3 +1,4 @@
+/*
 package com.sunshine.quote.webquoteconfig;
 
 import org.junit.Test;
@@ -13,4 +14,5 @@ public class WebQuoteConfigApplicationTests {
 	public void contextLoads() {
 	}
 
-}
+}clea
+*/

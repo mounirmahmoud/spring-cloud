@@ -10,5 +10,6 @@ public class WebQuoteConfigApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WebQuoteConfigApplication.class, args);
+		System.out.print("TOT");
 	}
 }

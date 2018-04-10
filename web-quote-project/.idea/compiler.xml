@@ -10,6 +10,7 @@
         <module name="web-quote-eureka-service" />
         <module name="web-quote-proxy-service" />
         <module name="web-quote-service" />
+        <module name="web-vehicle-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="web-quote-project" target="1.8" />
       <module name="web-quote-proxy-service" target="1.8" />
       <module name="web-quote-service" target="1.8" />
+      <module name="web-vehicle-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

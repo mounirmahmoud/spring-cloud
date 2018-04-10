@@ -6,5 +6,6 @@
     <file url="file://$PROJECT_DIR$/web-quote-eureka-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-quote-proxy-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-quote-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-vehicle-service" charset="UTF-8" />
   </component>
 </project>

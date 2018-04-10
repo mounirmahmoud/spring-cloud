@@ -8,8 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 public class WebQuoteConfigApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(WebQuoteConfigApplication.class, args);
-		System.out.print("TOT");
-	}
+    public static void main (String[] args) {
+        SpringApplication.run(WebQuoteConfigApplication.class, args);
+    }
 }

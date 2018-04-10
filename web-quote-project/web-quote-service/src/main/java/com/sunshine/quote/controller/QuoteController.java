@@ -1,4 +1,4 @@
-package com.sunshine.quote.events;
+package com.sunshine.quote.controller;
 
 import com.sunshine.quote.dao.QuoteRepository;
 import com.sunshine.quote.entity.Quote;

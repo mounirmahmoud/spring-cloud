@@ -19,7 +19,5 @@ public class WebQuoteServiceApplication {
 
     public static void main(String[] args) {
 	 SpringApplication.run(WebQuoteServiceApplication.class, args);
-
-
 	}
 }

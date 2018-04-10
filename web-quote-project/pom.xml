@@ -17,6 +17,7 @@
 
     <modules>
         <module>web-quote-service</module>
+        <module>web-vehicle-service</module>
         <module>web-quote-eureka-service</module>
         <module>web-quote-config-service</module>
         <module>web-quote-proxy-service</module>

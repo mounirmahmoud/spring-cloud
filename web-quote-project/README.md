@@ -3,7 +3,8 @@
 ## Definition :
 
 ## architecture : 
-![](img.png)
+
+<img src="img.png" width="450px" width="400px" />
 
 
 ## System Setup :

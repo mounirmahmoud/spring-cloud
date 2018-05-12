@@ -1,10 +1,16 @@
 # Web Quote Project
 
 
-_## Code Style :_
+#*Code Style :*
 
-### Functions :
+### *Functions :*
      `Faire court 
      Faire une seule chose
-     Un niveau d abstraction par fonction
-     `
+     Un niveau d abstraction par fonction`
+ 
+     ----
+    
+#*Step :*
+'ddd
+
+

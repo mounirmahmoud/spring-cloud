@@ -1,7 +1,14 @@
 # Web Quote Project
 
+## Definition :
 
-#*Code Style :*
+## architecture : 
+![](img.png)
+
+
+## System Setup :
+
+## System Code Style :
 
 ### *Functions :*
      `Faire court 
@@ -9,8 +16,4 @@
      Un niveau d abstraction par fonction`
  
      ----
-    
-#*Step :*
-'ddd
-
 

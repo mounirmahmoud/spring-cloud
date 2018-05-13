@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class VehicleProperties {
 
     /* prefix */
-    private String prefix= "hello";
+    private String prefix= "hello mounir";
 
     /* sufix */
     private String sufix= "!";

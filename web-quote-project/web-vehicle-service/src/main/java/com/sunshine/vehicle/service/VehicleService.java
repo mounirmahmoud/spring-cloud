@@ -32,7 +32,7 @@ public class VehicleService {
 
     public VehicleService (String id) {
         this.setId(id);
-        System.out.println("creation with"  + id);
+        System.out.println("creation with"  + "vehicle.prefix");
     }
 
     public List<VehicleMake> getMakes (){

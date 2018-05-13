@@ -1,12 +1,13 @@
 package com.sunshine.vehicle.controller;
 
-import com.sunshine.vehicle.dao.VehicleMakeDao;
 import com.sunshine.vehicle.entity.VehicleMake;
+import com.sunshine.vehicle.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Created by fanida on 18-04-09.
@@ -16,12 +17,17 @@ import java.util.List;
 public class VehicleController {
 
     @Autowired
-    VehicleMakeDao vehicleMakeDao;
+    VehicleService vehicleService;
 
     @GetMapping(path = "/makes")
-    public String makes(){
-        List<VehicleMake> vehicleMakeList = vehicleMakeDao.findAll();
+    public List<VehicleMake>  makes(){
+        List<VehicleMake> vehicleMakeList = vehicleService.getMakes();
+        return vehicleMakeList;
+    }
 
-        return "makes list";
+    @GetMapping(path = "/makes/1")
+    public Optional<VehicleMake>  make(){
+        Optional<VehicleMake> vehicleMakeList = vehicleService.getMake();
+        return vehicleMakeList;
     }
 }
